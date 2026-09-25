@@ -397,6 +397,17 @@ h1, h2, h3, h4 { margin: 0; font-weight: 900; line-height: 1.35; }
   box-shadow: var(--shadow);
 }
 .map-wrap iframe { display: block; }
+.map-link {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-primary);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+}
+.map-link:hover { background: var(--color-bg); }
 
 /* Footer */
 .site-footer { padding: 28px 0; border-top: 1px solid var(--color-border); }
